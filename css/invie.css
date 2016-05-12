@@ -1,0 +1,203 @@
+body{
+  font-family: 'Allerta', sans-serif;
+}
+
+.button, #enviar{
+  border-radius: 12px;
+  background-color: #fd324e;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+header{
+  position: relative;
+}
+
+footer{
+  background: #273b47;
+  padding: 50px 10px;
+}
+
+.background{
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
+
+.contenedor{
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+.titulo span{
+  text-decoration: underline;
+}
+
+.title-a{
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.guitarras h2{
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-b{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.portada{
+  color: white;
+  padding: 20px;
+  height: 500px;
+}
+
+.portada .button{
+  margin-bottom: 70px;
+  font-size: 20px;
+  background: linear-gradient(to left, #fe344e, #ff7250);
+  text-decoration: none;
+}
+.guitarras{
+  color: #1F313C;
+  margin-bottom:60px;
+}
+
+
+.menu{
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.menu li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu li:before{
+  content: '∘';
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.logotipo{
+  display: inline-block;
+  margin-left: 0;
+}
+
+.right{
+  float: right;
+  position: relative;
+  top: -127px;
+
+}
+
+.left{
+  float: left;
+}
+
+.guitarra{
+  padding: 10px;
+  margin: 10px 10px 40px 10px;
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+}
+
+.guitarra ol{
+  padding: 0;
+}
+
+.guitarra.b{
+  height: 190px;
+}
+
+.contenedorGuitarraA{
+  padding-left: 20px;
+
+}
+
+.contenedorGuitarraB{
+  margin-left: 370px;
+  padding-left: 20px;
+  position: relative;
+  bottom: 90px;
+}
+
+.contacto img, strong{
+  display: block;
+}
+
+.contacto a{
+  color: white;
+  text-decoration: none;
+}
+
+footer .contenedor, .datosc, .formulario, .intereses{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+#lnombre, #lemail, #lcomentarios, #enviar{
+  display: block;
+  margin: 8px 0;
+}
+
+.formulario{
+  width: 465px;
+  color: white;
+}
+
+.datosc {
+  margin: 10px 0;
+}
+
+.datosf input{
+  margin: 5px 0;
+}
+
+.datosf{
+  width: 210px;
+}
+
+table{
+  width: 100%;
+  margin: 50px 0;
+}
+
+th{
+  background: #273b47;
+  color: white;
+}
+
+th{
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td{
+  padding: 20px;
+}
+
+table, th,td{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
